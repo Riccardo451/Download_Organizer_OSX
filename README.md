@@ -10,7 +10,13 @@ How to use:
    - In the choose folder button select the desired folder to keep organized
    - from the drop down menu choose -> "Run shell script" 
    - in the text box write (use your real PATH:   
+          
           cd /Users/USER_NAME/Downloads/ && /Users/USER_NAME/Documents/automation/organizer.bash "$1"
+          
+     if you want a delay before running the script:
+          
+          cd /Users/riccardomontaguti/Downloads/ && sleep 15 && /Users/riccardomontaguti/Documents/automation/organizer.bash "$1"
+   
    - save the automator script.
    
 4) Now every time a file is added to the chosen folder the file will be moved inside a folder with its extention name.
